@@ -1,0 +1,230 @@
+body {
+    overflow-x: hidden;
+}
+
+.derecha a {
+    font-family: Arial, Helvetica, sans-serif;  /*fuente de letra*/
+    font-size: 13px;
+}
+
+.derecha a:link {
+    color: white;
+    text-decoration: none;                   /*el elemento antes de que se le de click*/
+
+}
+.derecha a:visited {
+    color: white;                         /*el elemento despues de que se le de click */
+    text-decoration: none;
+    
+}
+.derecha a:hover {
+    color: white;                        /* el elemento con el cursor encima */
+    text-decoration: underline;
+}
+.derecha a:active { 
+    color: white;                         /* el elemento mientras se le da click */
+    text-decoration: underline;
+}
+header {
+    width: 100%;                            /* tamaño del header */
+    height: 48px;
+}
+header nav {                                /* moviendo el contenido a la derecha*/
+ display: flex;
+ justify-content: flex-end;
+ height: 40px;
+}
+header nav .derecha {
+    display: flex;                           /* centrando el contenido*/
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+.derecha img {
+    border-radius: 50%;   /* para que sea circular la imagen de perfil */
+}
+
+.derecha a {
+    margin-right: 17px; /* separacion de los elementos gmail imagenes */
+}
+
+/* main */
+
+main {
+    margin-top: 200px;
+    text-align: center;
+}
+
+main #input-search {
+    width: 579px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+    margin-top: 26px;
+}
+
+
+main .input-search-contenedor { /* estilo del buscador*/
+    width: 579px;
+    height: 44px;
+    border-radius: 100px;
+    border: 1px solid #5f6368;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main .input-search-contenedor:hover {
+    background-color: #303134;
+    border-color: #303134;
+}
+
+main #input-search input { /* estilo de la caja de texto */
+    width: 500px;
+    height: 42px;
+    border: none;
+    outline: none;
+    background-color: #202124;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: white;
+}
+
+main #input-search input:hover {
+    background-color: #303134;
+} 
+main #input-search .lupa img { /*centrado de lupa */
+    
+    margin-top: 5px;
+} 
+
+/* botones abajo de google */
+
+main .botones {
+    width: 579px;
+    margin: 0 auto;
+}
+main .botones div {
+    display: inline-block;
+}
+main .botones button {
+    border: none;
+    font-size: 14px;
+    color: white;
+    background-color: #303134;
+    height: 36px;
+    border-radius: 4px;
+    padding: 0 16px;
+    margin: 11px 4px;
+}
+
+main .botones button:hover {
+    border: 1px solid #5f6368;
+}
+
+/* 
+
+footer {
+    width: 100%;
+    height: 46px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #171717;
+    border: 1px #999da2;
+    
+}
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .piederecho {
+    justify-content: right;
+}
+footer ul li a {
+    margin: 10px;
+    
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 14px;
+}
+footer ul li a:link {
+    color: #999da2;
+    text-decoration: none;                   
+
+}
+footer ul li a:visited {
+    color: #999da2;                         
+    text-decoration: none;
+    
+}
+footer ul li a:hover {
+    color: #999da2;                        
+    text-decoration: underline;
+}
+footer ul li a:active { 
+    color: #999da2;                       
+    text-decoration: underline;
+} */
+
+/*footer*/
+
+footer {
+    margin-bottom: auto;
+    background-color: #171717;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    
+}
+footer .bottom {
+    padding: 15px 30px;
+    font-size: 14px;
+    color: #999da2;
+    border-bottom: 1px solid #303134;
+}
+footer nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+footer nav ul {
+    margin: 15px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer .piederecho {
+    justify-content: right;
+}
+
+footer ul li a {
+    margin: 10px;
+    
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 14px;
+}
+footer ul li a:link {
+    color: #999da2;
+    text-decoration: none;                   
+
+}
+footer ul li a:visited {
+    color: #999da2;                         
+    text-decoration: none;
+    
+}
+footer ul li a:hover {
+    color: #999da2;                        
+    text-decoration: underline;
+}
+footer ul li a:active { 
+    color: #999da2;                       
+    text-decoration: underline;
+} 
